@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "WebSearch",
+      "Bash(sips:*)",
+      "Bash(npx tsc:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(lsof -ti:5173)",
+      "Bash(screencapture -x /tmp/room_v2.png)",
+      "Bash(/usr/sbin/screencapture:*)",
+      "Bash(/usr/bin/osascript -e ':*)",
+      "Bash(npm run:*)",
+      "Bash(echo \"EXIT: $?\")",
+      "Read(//private/tmp/**)",
+      "Bash(sips -c 480 768 --cropOffset 0 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows0_9.png)",
+      "Bash(sips -c 480 768 --cropOffset 480 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows10_19.png)",
+      "Bash(sips -c 480 768 --cropOffset 960 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows20_29.png)",
+      "Bash(sips -c 480 768 --cropOffset 1440 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows30_39.png)",
+      "Bash(sips -c 480 768 --cropOffset 1920 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows40_49.png)",
+      "Bash(sips -c 480 768 --cropOffset 2400 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows50_59.png)",
+      "Bash(sips -c 480 768 --cropOffset 2880 0 \"/Users/prashant/Projects/claude_display/frontend/src/assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png\" --out /tmp/interiors_rows60_69.png)",
+      "Bash(python3 -c \"from PIL import Image; print\\('pillow'\\)\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
