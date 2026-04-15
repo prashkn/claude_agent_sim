@@ -9,5 +9,8 @@ export default defineConfig({
       "/agents": "http://localhost:8000",
       "/status": "http://localhost:8000",
     },
+    hmr: {
+      host: '10.0.0.247',
+    },
   },
 })
