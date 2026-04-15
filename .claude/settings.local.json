@@ -25,7 +25,17 @@
       "Bash(python3 -c \"from PIL import Image; print\\('pillow'\\)\")",
       "Bash(pip3 install:*)",
       "Bash(python3:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(npx *)",
+      "Bash(./node_modules/.bin/tsc *)",
+      "Bash(/Users/prashant/Projects/claude_agent_sim/frontend/node_modules/.bin/tsc *)",
+      "Bash(npm --prefix /Users/prashant/Projects/claude_agent_sim/frontend install)",
+      "Bash(curl -s http://localhost:8000/agents)",
+      "Bash(curl -s -X POST http://localhost:8000/agents -H 'Content-Type: application/json' -d '{\"owner\":\"prashant\",\"session_id\":\"test-1\"}')",
+      "Bash(curl -s -X POST http://localhost:8000/agents -H 'Content-Type: application/json' -d '{\"owner\":\"roommate\",\"session_id\":\"test-2\"}')",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(curl *)"
     ]
   }
 }

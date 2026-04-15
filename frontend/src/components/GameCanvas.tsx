@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import * as ex from "excalibur";
 import { createEngine } from "../game/engine";
-import { RoomScene, loader } from "../game/RoomScene";
+import { charLoader } from "../game/characters";
+import { AgentScene } from "../game/AgentScene";
 
 export function GameCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -11,9 +12,10 @@ export function GameCanvas() {
     if (!canvasRef.current || engineRef.current) return;
 
     const engine = createEngine(canvasRef.current);
-    engine.addScene("room", new RoomScene());
-    engine.start(loader).then(() => {
-      engine.goToScene("room");
+    engine.addScene("agents", new AgentScene());
+
+    engine.start(charLoader).then(() => {
+      engine.goToScene("agents");
     });
     engineRef.current = engine;
 
