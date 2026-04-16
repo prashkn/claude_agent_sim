@@ -4,6 +4,8 @@ A fun Raspberry Pi-hosted app that visualizes your running Claude CLI agents as 
 
 ![Architecture: Dev machines send HTTP requests to Pi via hooks, Pi serves a React frontend to any browser on the network](https://img.shields.io/badge/stack-FastAPI_+_React_+_Excalibur.js-blue)
 
+https://github.com/user-attachments/assets/c9997ad8-1638-4955-934f-50c52fa517bc
+
 ## How it works
 
 1. **Claude Code hooks** on your dev machine fire HTTP requests to the Pi when an agent starts or stops
